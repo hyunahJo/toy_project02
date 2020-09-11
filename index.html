@@ -4,6 +4,16 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Amuger</title>
+        <link
+            rel="shortcut icon"
+            href="imgs/A-cutout.png"
+            type="image/x-icon"
+        />
+        <script
+            src="https://kit.fontawesome.com/8594ac36cc.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <nav id="navbar">
@@ -11,12 +21,129 @@
                 <a href="#">Amuger</a>
             </div>
             <ul class="navbar__menu">
-                <li class="navbar__menu__item">ㄴㄴ</li>
-                <li class="navbar__menu__item">ㄹㄹ</li>
+                <li class="navbar__menu__item">진행중인아무거</li>
+                <li class="navbar__menu__item">지난아무거후기</li>
                 <li class="navbar__menu__item">로그인 / 회원가입</li>
             </ul>
         </nav>
-        <section id="home"></section>
-        <section id="about"></section>
+        <section id="home">
+            <div class="section__container">
+                <h1 class="home__title">
+                    내가 찾고싶은 <br />Amuger를 <br />찾아보세요!
+                </h1>
+                <div class="home__search">
+                    <input
+                        type="text"
+                        class="home__search__input"
+                        placeholder="검색어를 입력하세요."
+                    />
+                    <button class="home__search__button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="section__container">
+                <h1 class="about__title">최신등록글</h1>
+                <div class="about__new">
+                    <p>더많은 최신글을 확인하세요</p>
+                    <button>
+                        <i class="far fa-hand-point-right"></i>
+                        click
+                    </button>
+                </div>
+
+                <div class="about__buttons">
+                    <button class="about__buttons__btn">All</button>
+                    <button class="about__buttons__btn">a type</button>
+                    <button class="about__buttons__btn">b type</button>
+                    <button class="about__buttons__btn">c type</button>
+                </div>
+
+                <div class="about__project">
+                    <div class="about__project__card">
+                        <a href="#">
+                            <div class="about__project__card-img">
+                                <img src="imgs/project01.jpg" alt="project01" />
+                            </div>
+                            <div class="about__project__card-content">
+                                <h3>test</h3>
+                                <p>tteesstt</p>
+                                <p>ho!</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="about__project__card">
+                        <a href="#">
+                            <div class="about__project__card-img">
+                                <img src="imgs/project02.jpg" alt="project02" />
+                            </div>
+                            <div class="about__project__card-content">
+                                <h3>test</h3>
+                                <p>tteesstt</p>
+                                <p>ho!</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="about__project__card">
+                        <a href="#">
+                            <div class="about__project__card-img">
+                                <img src="imgs/project03.jpg" alt="project03" />
+                            </div>
+                            <div class="about__project__card-content">
+                                <h3>test</h3>
+                                <p>tteesstt</p>
+                                <p>ho!</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="about__project__card">
+                        <a href="#">
+                            <div class="about__project__card-img">
+                                <img src="imgs/project01.jpg" alt="project01" />
+                            </div>
+                            <div class="about__project__card-content">
+                                <h3>test</h3>
+                                <p>tteesstt</p>
+                                <p>ho!</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="about__project__card">
+                        <a href="#">
+                            <div class="about__project__card-img">
+                                <img src="imgs/project02.jpg" alt="project02" />
+                            </div>
+                            <div class="about__project__card-content">
+                                <h3>test</h3>
+                                <p>tteesstt</p>
+                                <p>ho!</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="about__project__card">
+                        <a href="#">
+                            <div class="about__project__card-img">
+                                <img src="imgs/project03.jpg" alt="project03" />
+                            </div>
+                            <div class="about__project__card-content">
+                                <h3>test</h3>
+                                <p>tteesstt</p>
+                                <p>ho!</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="section__container">
+                <p>
+                    <strong>Amuger</strong> Copyright (c) 2020 hyunah All rights
+                    reserved.
+                </p>
+            </div>
+        </footer>
     </body>
 </html>
