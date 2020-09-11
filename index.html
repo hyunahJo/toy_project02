@@ -14,11 +14,12 @@
             crossorigin="anonymous"
         ></script>
         <link rel="stylesheet" href="style.css" />
+        <script src="main.js" defer></script>
     </head>
     <body>
         <nav id="navbar">
             <div class="navbar__logo">
-                <a href="#">Amuger</a>
+                <a href="index.html">Amuger</a>
             </div>
             <ul class="navbar__menu">
                 <li class="navbar__menu__item">진행중인아무거</li>
@@ -58,15 +59,23 @@
                 </div>
 
                 <div class="about__buttons">
-                    <button class="about__buttons__btn">All</button>
-                    <button class="about__buttons__btn">a type</button>
-                    <button class="about__buttons__btn">b type</button>
-                    <button class="about__buttons__btn">c type</button>
+                    <button class="about__buttons__btn" data-filter="*">
+                        All
+                    </button>
+                    <button class="about__buttons__btn" data-filter="a type">
+                        a type
+                    </button>
+                    <button class="about__buttons__btn" data-filter="b type">
+                        b type
+                    </button>
+                    <button class="about__buttons__btn" data-filter="c type">
+                        c type
+                    </button>
                 </div>
 
                 <div class="about__project">
                     <div class="about__project__card">
-                        <a href="#">
+                        <a href="#" data-type="a">
                             <div class="about__project__card-img">
                                 <img src="imgs/project01.jpg" alt="project01" />
                             </div>
@@ -78,7 +87,7 @@
                         </a>
                     </div>
                     <div class="about__project__card">
-                        <a href="#">
+                        <a href="#" data-type="b">
                             <div class="about__project__card-img">
                                 <img src="imgs/project02.jpg" alt="project02" />
                             </div>
@@ -90,7 +99,7 @@
                         </a>
                     </div>
                     <div class="about__project__card">
-                        <a href="#">
+                        <a href="#" data-type="c">
                             <div class="about__project__card-img">
                                 <img src="imgs/project03.jpg" alt="project03" />
                             </div>
@@ -102,7 +111,7 @@
                         </a>
                     </div>
                     <div class="about__project__card">
-                        <a href="#">
+                        <a href="#" data-type="a">
                             <div class="about__project__card-img">
                                 <img src="imgs/project01.jpg" alt="project01" />
                             </div>
@@ -114,7 +123,7 @@
                         </a>
                     </div>
                     <div class="about__project__card">
-                        <a href="#">
+                        <a href="#" data-type="b">
                             <div class="about__project__card-img">
                                 <img src="imgs/project02.jpg" alt="project02" />
                             </div>
@@ -126,7 +135,7 @@
                         </a>
                     </div>
                     <div class="about__project__card">
-                        <a href="#">
+                        <a href="#" data-type="c">
                             <div class="about__project__card-img">
                                 <img src="imgs/project03.jpg" alt="project03" />
                             </div>
