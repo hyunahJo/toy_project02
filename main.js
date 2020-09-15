@@ -25,6 +25,14 @@ for (let i = 0; i < navbarMenuItem.length; i++) {
 //     }
 // });
 
+// about new
+const aboutNewBtn = document.querySelector(".about__new > button");
+
+aboutNewBtn.addEventListener("click", () => {
+    // console.log("log");
+    window.open("empty.html");
+});
+
 // type 분류
 const aboutBtn = document.querySelector(".about__buttons");
 const aboutProject = document.querySelector(".about__project");
