@@ -15,6 +15,16 @@ for (let i = 0; i < navbarMenuItem.length; i++) {
     });
 }
 
+// input
+// const homeSearchInputValue = document.querySelector(".home__search__input")
+//     .value;
+// const homeSearchBtn = document.querySelector("home__search__button");
+
+// homeSearchBtn.addEventListener("click", () => {
+//     if (homeSearchInputValue !== "") {
+//     }
+// });
+
 // type 분류
 const aboutBtn = document.querySelector(".about__buttons");
 const aboutProject = document.querySelector(".about__project");
